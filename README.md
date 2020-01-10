@@ -24,13 +24,15 @@ contained with in a GUI
 
 
 ## how to run
-import files w.py agentframework.py
-run in spyder(python3.7)
+import files w.py and agentframework.py 
+run model in spyder(python3.7)
 
 
 ## Files
 agentframework.py This defines 'sheep' agent,which implements the behavior of moving randomly across axes, based on random number,eat grass from 'environment',interact with each other in a cerntain distance.
 
-w.py this defines 'wolf' agent, with behavior of moves ramdomly.
+w.py This defines 'wolf' agent, with behavior of moves ramdomly.
 
-model.py This defines the model itself, including initialising the parameters and use matplotlib pakages to draw sactterplot of agents, including the animation of each change through iterations.
+model.py This defines the model itself, including initialising the parameters and use matplotlib pakages to draw sactterplot of agents, including the animation of each change through iterations.In the model, sheep are represented by white scatters and wolf with black color.
+## known issues
+The two objects are lack of interactions,certain funtion need futher change to run effectively.
