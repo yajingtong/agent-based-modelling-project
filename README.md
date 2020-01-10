@@ -24,10 +24,13 @@ contained with in a GUI
 
 
 ## how to run
-import files
+import files w.py agentframework.py
+run in spyder(python3.7)
 
 
 ## Files
-agentframework.py This defines 'sheep'agent,which implements the behavior of moving randomly across axes, based on random number greater than 0.5 or not.
+agentframework.py This defines 'sheep' agent,which implements the behavior of moving randomly across axes, based on random number,eat grass from 'environment',interact with each other in a cerntain distance.
+
+w.py this defines 'wolf' agent, with behavior of moves ramdomly.
 
 model.py This defines the model itself, including initialising the parameters and use matplotlib pakages to draw sactterplot of agents, including the animation of each change through iterations.
