@@ -5,7 +5,7 @@ import operator
 import numpy as np
 import matplotlib.pyplot
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
-import agentframework1 as agentframework
+import agentframework
 import w
 import requests
 import bs4
@@ -106,16 +106,6 @@ def run():# the function runs model
     canvas.draw()    
     
 
-
-'''
-#draw the agents
-matplotlib.pyplot.xlim(0, 300)
-matplotlib.pyplot.ylim(0, 300)
-matplotlib.pyplot.imshow(environment)
-for i in range(num_of_agents):
-    matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
-    matplotlib.pyplot.show()
-'''
 
 root = tkinter.Tk()
 root.wm_title("Model")
