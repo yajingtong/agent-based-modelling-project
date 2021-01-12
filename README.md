@@ -6,19 +6,19 @@ A simple model consists of two types agents: sheep and wolf, where sheep has fun
 
 The model is tests and demonstrates several features:
 
-writing a model consists of multiple files
+- writing a model consists of multiple files
 
--build agents in a space
+- build agents in a space
 
--reads in environmental data and initialise data from the web
+- reads in environmental data and initialise data from the web
 
--get agents to interact with each other (share with neighbors)
+- get agents to interact with each other (share with neighbors)
 
--gets agents interact with environment ('sheep' eat 'grass')
+- gets agents interact with environment ('sheep' eat 'grass')
 
--display the model as an animation
+- display the model as an animation
 
--contained within a GUI
+- contained within a GUI
 
 
 
