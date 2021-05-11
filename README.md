@@ -1,6 +1,6 @@
-#A gent-based modeling
+# Agent-based modeling
 
-project summary
+## project summary
 
 
 A simple model consists of two types agents: sheep and wolf, where sheep has function of eat, move and share with neighbours. When run , the model displays a animation with the change of agents and environments .The data of agents are imported from website and the environment(grass) data is imported from file 'in.txt'.
