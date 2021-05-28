@@ -1,4 +1,4 @@
-# Agent-based modeling
+# Agent-based modeling Predator prey model
 
 ## project summary
 
